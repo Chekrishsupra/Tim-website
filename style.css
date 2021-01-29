@@ -63,7 +63,7 @@ p {
     text-align: center;
     vertical-align: middle;
 }
-.menu {
+.Menu {
     list-style: none;
     font-family: sans-serif;
     position: absolute;
@@ -84,4 +84,13 @@ p {
 }
 .links:hover {
     background-color: red;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+    color: royalblue;
 }
